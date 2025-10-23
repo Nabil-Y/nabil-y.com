@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Icon } from "@iconify/vue";
-import { Button } from "@/components/ui/button";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { Button } from "~/components/ui/button";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "~/components/ui/dropdown-menu";
 
 const colorMode = useColorMode();
 </script>
@@ -11,7 +11,7 @@ const colorMode = useColorMode();
 		<DropdownMenuTrigger as-child>
 			<Button
 				variant="outline"
-				class="border w-9 h-9 rounded flex justify-center items-center hover:bg-accent focus-within:bg-accent cursor-pointer"
+				class="border w-9 h-9 rounded flex justify-center items-center hover:bg-accent cursor-pointer"
 			>
 				<Icon
 					icon="radix-icons:moon"

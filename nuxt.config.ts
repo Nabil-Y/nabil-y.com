@@ -13,6 +13,17 @@ export default defineNuxtConfig({
 		classSuffix: "",
 	},
 	compatibilityDate: "2025-07-15",
+	hooks: {
+		"content:file:afterParse"(ctx) {
+			const { file, content } = ctx;
+
+			const wordsPerMinute = 180;
+			const text = file.body;
+			const wordCount = text.split(/\s+/).length;
+
+			content.readingTime = Math.ceil(wordCount / wordsPerMinute);
+		},
+	},
 	eslint: {
 		config: {
 			stylistic: {
@@ -24,6 +35,6 @@ export default defineNuxtConfig({
 	},
 	shadcn: {
 		prefix: "",
-		componentDir: "./components/ui",
+		componentDir: "@/components/ui",
 	},
 });

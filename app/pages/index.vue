@@ -5,7 +5,7 @@ import { BlurReveal } from "~/components/ui/blur-reveal";
 useSeoMeta({
 	title: "Nabil Yassine",
 	description: "Nabil Yassine portfolio website",
-	ogImage: "@/assets/img/nabil.png",
+	ogImage: "/nabil.png",
 });
 
 const skillsFront = [

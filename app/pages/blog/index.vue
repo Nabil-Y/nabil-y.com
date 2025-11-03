@@ -8,7 +8,7 @@ const { data: posts } = await useAsyncData("blogs", () =>
 useSeoMeta({
 	title: "Blog",
 	description: "Blog articles and tutorials about web development and tech industry",
-	ogImage: "@/assets/img/nabil.png",
+	ogImage: "/nabil.png",
 });
 </script>
 

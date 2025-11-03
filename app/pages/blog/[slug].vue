@@ -10,6 +10,7 @@ const { data: page } = await useAsyncData(slug, () => {
 useSeoMeta({
 	title: page.value?.title,
 	description: page.value?.description,
+	ogImage: "@/assets/img/nabil.png",
 });
 </script>
 

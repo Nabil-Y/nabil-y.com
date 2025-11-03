@@ -6,6 +6,7 @@ const { data: projects } = await useAsyncData("projects", () => {
 useSeoMeta({
 	title: "Projects",
 	description: "Professional and personal projects I've worked on.",
+	ogImage: "@/assets/img/nabil.png",
 });
 </script>
 

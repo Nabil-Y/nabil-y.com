@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Avatar, AvatarFallback, AvatarImage } from "~/components/ui/avatar";
-import nabil from "@/assets/img/nabil.png";
+import nabil from "@/assets/img/nabil.webp";
 </script>
 
 <template>

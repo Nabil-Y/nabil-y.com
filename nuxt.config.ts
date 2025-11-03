@@ -9,6 +9,13 @@ export default defineNuxtConfig({
 		"@nuxtjs/color-mode",
 	],
 	devtools: { enabled: true },
+	app: {
+		head: {
+			htmlAttrs: {
+				lang: "en",
+			},
+		},
+	},
 	colorMode: {
 		classSuffix: "",
 	},

@@ -5,7 +5,7 @@ const { data: projects } = await useAsyncData("projects", () => {
 
 useSeoMeta({
 	title: "Projects",
-	description: "Projects",
+	description: "Professional and personal projects I've worked on.",
 });
 </script>
 
@@ -16,7 +16,7 @@ useSeoMeta({
 		</h1>
 
 		<p class="mb-16 max-w-sm">
-			Some of the projects I've worked on
+			Some of the projects I've worked on... <br>More coming soon!
 		</p>
 
 		<div class="flex flex-col gap-12">

@@ -7,7 +7,7 @@ import nabil from "@/assets/img/nabil.png";
 	<Avatar class="w-12 h-12">
 		<AvatarImage
 			:src="nabil"
-			alt="Nabil Yassine"
+			alt="Vector drawing of my orange cat Tsukki and me"
 		/>
 		<AvatarFallback>Nabil Yassine</AvatarFallback>
 	</Avatar>

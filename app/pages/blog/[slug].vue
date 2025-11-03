@@ -22,8 +22,9 @@ useSeoMeta({
 			<Icon
 				icon="radix-icons:arrow-left"
 				class="translate-y-[1px] h-5 w-5"
+				aria-hidden="true"
 			/>
-			<span class="">Go back</span>
+			<span class="font-semibold">Go back</span>
 		</RouterLink>
 		<article
 			v-if="page"
@@ -36,5 +37,11 @@ useSeoMeta({
 				:value="page"
 			/>
 		</article>
+		<section
+			v-else
+			class="text-center"
+		>
+			The article you are looking for does not exist.
+		</section>
 	</div>
 </template>

@@ -26,7 +26,7 @@ const navLink = [
 					<li
 						v-for="link in navLink"
 						:key="link.path"
-						class="hover:text-chart-2"
+						class="hover:text-chart-2 font-semibold"
 					>
 						<NuxtLink :to="link.path">{{ link.name }}</NuxtLink>
 					</li>
@@ -37,5 +37,11 @@ const navLink = [
 		<main class="w-full max-w-xl py-16">
 			<slot />
 		</main>
+		<footer class="mb-4 text-sm opacity-75">
+			2025 - Built by <NuxtLink
+				to="/"
+				class="hover:text-chart-2 font-semibold"
+			>Nabil-Y</NuxtLink>
+		</footer>
 	</div>
 </template>

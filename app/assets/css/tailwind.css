@@ -122,3 +122,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-gutter: stable;
+
+    font-family: "Inter", system-ui, sans-serif;
+}

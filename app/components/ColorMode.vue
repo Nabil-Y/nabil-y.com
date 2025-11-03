@@ -12,6 +12,7 @@ const colorMode = useColorMode();
 			<Button
 				variant="outline"
 				class="border w-9 h-9 rounded flex justify-center items-center hover:bg-accent cursor-pointer"
+				:aria-label="`Toggle color mode, current mode is ${colorMode.value}`"
 			>
 				<Icon
 					icon="radix-icons:moon"

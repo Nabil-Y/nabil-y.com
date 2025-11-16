@@ -17,13 +17,13 @@ Soon after, I started the [**OpenClassrooms React Web App Developer**](https://o
 
 The courses of Angela Yu, Maximilian Schwarzmüller, freeCodeCamp and the challenges of FrontendMentor have been a huge boost at the beginning of my coding journey so if you're interested in becoming a web developer, I'd recommend them to you in a heartbeat.
 
-Since starting my web developer career, I've invested less time in side projects but I still try to learn new things and improve my skills whenever I can.
+Since starting my web developer career, I've invested less time in side projects but I still try to learn whenever I can.
 
-With the V2 of this website, I want to share my experience as a developer and the lessons I'm learning along the way.
+For now, I want to share my experiences and discoveries as a fullstack developer.
 
-Also I'd like to make some time to work on bigger side projects and maybe contribute to open source.
+In the near future, I'd also like to make some time to work on bigger side projects and maybe contribute to open source.
 
-Thanks for visiting and I hope you find something useful for you here!
+Hope you find something useful for you here!
 
 ## Where to find me
 

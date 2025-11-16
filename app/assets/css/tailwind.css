@@ -131,7 +131,13 @@
 
 html {
     scrollbar-width: thin;
+    scrollbar-color:  var(--foreground) var(--accent);
     scrollbar-gutter: stable;
 
     font-family: "Inter", system-ui, sans-serif;
+}
+
+pre {
+    scrollbar-width: thin;
+    scrollbar-color:  var(--foreground) var(--accent);
 }

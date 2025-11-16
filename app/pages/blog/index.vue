@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/vue";
 
 const { data: posts } = await useAsyncData("blogs", () =>
-	queryCollection("blog").order("date", "ASC").all(),
+	queryCollection("blog").order("date", "DESC").all(),
 );
 
 useSeoMeta({

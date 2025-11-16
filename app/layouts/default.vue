@@ -19,7 +19,7 @@ const navLink = [
 
 <template>
 	<div class="px-4  flex flex-col items-center justify-center">
-		<header class="flex items-center justify-between my-auto w-full max-w-xl mt-16">
+		<header class="flex items-center justify-between my-auto w-full max-w-2xl  mt-16">
 			<WebsiteLogo />
 			<nav class="flex content-center mx-4 ">
 				<ul class="flex gap-4">
@@ -34,7 +34,7 @@ const navLink = [
 			</nav>
 			<ColorMode />
 		</header>
-		<main class="w-full max-w-xl py-16">
+		<main class="max-w-2xl py-16">
 			<slot />
 		</main>
 		<footer class="mb-4 text-sm opacity-75">

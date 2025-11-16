@@ -29,7 +29,7 @@ useSeoMeta({
 		</RouterLink>
 		<article
 			v-if="page"
-			class="prose prose-slate dark:prose-invert prose-a:hover:text-chart-2 prose-a:no-underline"
+			class="prose prose-slate dark:prose-pre:bg-accent dark:prose-invert scroll prose-a:hover:text-chart-2 prose-a:no-underline"
 		>
 			<h1>
 				{{ page.title }}

@@ -19,6 +19,18 @@ export default defineNuxtConfig({
 	colorMode: {
 		classSuffix: "",
 	},
+	content: {
+		build: {
+			markdown: {
+				highlight: {
+					theme: {
+						default: "catppuccin-macchiato",
+						dark: "catppuccin-macchiato",
+					},
+				},
+			},
+		},
+	},
 	compatibilityDate: "2025-07-15",
 	hooks: {
 		"content:file:afterParse"(ctx) {

@@ -18,8 +18,8 @@ const navLink = [
 </script>
 
 <template>
-	<div class="px-4  flex flex-col items-center justify-center">
-		<header class="flex items-center justify-between my-auto w-full max-w-2xl  mt-16">
+	<div class="px-4 flex flex-col items-center justify-center">
+		<header class="flex items-center justify-between my-auto w-full max-w-2xl mt-16">
 			<WebsiteLogo />
 			<nav class="flex content-center mx-4 ">
 				<ul class="flex gap-4">
@@ -34,8 +34,10 @@ const navLink = [
 			</nav>
 			<ColorMode />
 		</header>
-		<main class="max-w-2xl py-16">
-			<slot />
+		<main class="w-full py-16">
+			<div class="max-w-2xl mx-auto">
+				<slot />
+			</div>
 		</main>
 		<footer class="mb-4 text-sm opacity-75">
 			2025 - Built by <NuxtLink

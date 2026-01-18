@@ -139,5 +139,5 @@ html {
 
 pre {
     scrollbar-width: thin;
-    scrollbar-color:  var(--foreground) var(--accent);
+    scrollbar-color: var(--foreground) var(--accent);
 }

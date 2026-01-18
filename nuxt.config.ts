@@ -7,6 +7,7 @@ export default defineNuxtConfig({
 		"shadcn-nuxt",
 		"@vueuse/nuxt",
 		"@nuxtjs/color-mode",
+		"nuxt-umami",
 	],
 	devtools: { enabled: true },
 	app: {
@@ -55,5 +56,13 @@ export default defineNuxtConfig({
 	shadcn: {
 		prefix: "",
 		componentDir: "@/components/ui",
+	},
+	umami: {
+		id: "d5e3f874-cd86-4fee-b143-583447ec867e",
+		host: "https://umami.nylab.dev",
+		autoTrack: true,
+		ignoreLocalhost: true,
+		logErrors: true,
+		proxy: "cloak",
 	},
 });

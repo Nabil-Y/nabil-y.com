@@ -62,7 +62,7 @@ export default defineNuxtConfig({
 		host: "https://umami.nylab.dev",
 		autoTrack: true,
 		ignoreLocalhost: true,
-		domains: ["umami.nylab.dev"],
+		domains: ["nabil-y.com"],
 		logErrors: true,
 	},
 });
